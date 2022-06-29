@@ -1,9 +1,9 @@
-.educationComponent{
+.SkillsComponent{
     padding: 10em;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 4em;
-    gap: 2em;
+gap: 2em;
 
 }

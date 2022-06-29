@@ -13,8 +13,7 @@ const Experiences = () => {
     <Card.Text>
     Jordan University of science and technology
     </Card.Text>
-    <a href="https://github.com/WARRIORS-300/MERAKI_Academy_Project_5">
-            </a>
+    
   </Card.Body>
 </Card>
 

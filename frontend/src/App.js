@@ -7,7 +7,7 @@ import Container from "react-bootstrap/Container"
 import Projects from './Compnent/Projects/Projects';
 import Experiences from './Compnent/Experiences/Experiences';
 import Education from './Compnent/Education/Education';
-
+import Skills from './Compnent/Skills/Skills';
 function App() {
   return (
     <>
@@ -16,6 +16,7 @@ function App() {
       <Projects/>
       <Experiences/>
       <Education/>
+      <Skills/>
 
 
 

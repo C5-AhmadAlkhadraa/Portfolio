@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 4em;
-
+gap: 2em;
 }
 
 .test-height{

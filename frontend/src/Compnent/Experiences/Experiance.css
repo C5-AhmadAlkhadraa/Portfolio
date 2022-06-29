@@ -1,14 +1,7 @@
-.projectsComponent{
+.experiencesComponent{
     padding: 10em;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 4em;
-
-}
-
-.test-height{
-    height: 100vh;
-    margin-top: 10em;
-
 }

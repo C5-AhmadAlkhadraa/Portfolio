@@ -1,8 +1,10 @@
 import React from 'react'
 import Card from "react-bootstrap/Card"
+import "./Experiance.css"
 const Experiences = () => {
   return (
-    <div id="Experiences">
+    <div className="test-height">
+    <div id="Experiences" className='experiencesComponent'>
         <Card style={{ width: '18rem' }}>
   <Card.Body>
     <Card.Title>Teaching Assistant </Card.Title>
@@ -16,6 +18,7 @@ const Experiences = () => {
   </Card.Body>
 </Card>
 
+    </div>
     </div>
   )
 }

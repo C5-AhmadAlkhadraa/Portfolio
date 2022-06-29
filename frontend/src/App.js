@@ -8,6 +8,7 @@ import Projects from './Compnent/Projects/Projects';
 import Experiences from './Compnent/Experiences/Experiences';
 import Education from './Compnent/Education/Education';
 import Skills from './Compnent/Skills/Skills';
+
 function App() {
   return (
     <>
@@ -17,6 +18,9 @@ function App() {
       <Experiences/>
       <Education/>
       <Skills/>
+    
+
+      
 
 
 

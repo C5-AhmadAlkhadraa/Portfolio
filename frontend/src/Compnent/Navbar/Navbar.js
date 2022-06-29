@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav"
-import Container from 'react-bootstrap/Container';
+import Container from "react-bootstrap/Container"
 
 const NavbarComp = () => {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-    <Container fluid>
+        <Container fluid>
     <Navbar.Brand href="#home">Ahmad Alkhadra</Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
@@ -14,12 +14,8 @@ const NavbarComp = () => {
         <Nav.Link href="#Projects">Projects</Nav.Link>
         <Nav.Link href="#Experiences">Experiences</Nav.Link>
         <Nav.Link href="#Education">Education</Nav.Link>
-
-      
-      </Nav>
-      <Nav>
         <Nav.Link href="#Contact">Contact</Nav.Link>
-        <Nav.Link eventKey={2} href="#Skills">
+        <Nav.Link  href="#Skills">
           Skills
         </Nav.Link>
       </Nav>

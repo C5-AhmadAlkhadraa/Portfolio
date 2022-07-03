@@ -14,7 +14,7 @@ const NavbarComp = () => {
     <Navbar.Brand href="#home">Ahmad Alkhadra</Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
-      <Nav className="me-auto">
+      <Nav className="me-right">
         <Nav.Link href="#Projects">Projects</Nav.Link>
         <Nav.Link href="#Experiences">Experiences</Nav.Link>
         <Nav.Link href="#Education">Education</Nav.Link>

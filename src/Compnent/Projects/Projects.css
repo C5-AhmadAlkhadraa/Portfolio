@@ -1,5 +1,5 @@
 .projectsComponent{
-    /* padding: 10em; */
+    padding: 10em 0em;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;

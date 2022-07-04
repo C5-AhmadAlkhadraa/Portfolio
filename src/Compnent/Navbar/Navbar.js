@@ -11,7 +11,7 @@ const NavbarComp = () => {
   return (
     <Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container fluid>
-    <Navbar.Brand href="#home">Ahmad Alkhadra</Navbar.Brand>
+    <Navbar.Brand href="/#">Ahmad Alkhadra</Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="me-right">

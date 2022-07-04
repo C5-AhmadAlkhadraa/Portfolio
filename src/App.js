@@ -8,16 +8,19 @@ import Projects from './Compnent/Projects/Projects';
 import Experiences from './Compnent/Experiences/Experiences';
 import Education from './Compnent/Education/Education';
 import Skills from './Compnent/Skills/Skills';
+import Home from './Compnent/Home/Home';
 
 function App() {
   return (
     <>
     <NavbarComp/>
     <Container fluid>
+       <Home/>
       <Projects/>
       <Experiences/>
       <Education/>
       <Skills/>
+     
     
 
       

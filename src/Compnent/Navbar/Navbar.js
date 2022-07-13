@@ -7,18 +7,34 @@ import {BsGithub} from "react-icons/bs"
 import {MdEmail} from "react-icons/md"
 import {BsFillTelephoneFill} from "react-icons/bs"
 import {AiFillLinkedin} from "react-icons/ai"
+import { useNavigate} from "react-router-dom";
+import "./Navbar.css"
+
 const NavbarComp = () => {
+  const navigator = useNavigate()
   return (
     <Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container fluid>
-    <Navbar.Brand href="/#">Ahmad Alkhadra</Navbar.Brand>
+    <Navbar.Brand onClick={()=>{
+      navigator("/")
+    }}>Ahmad Alkhadra</Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
-      <Nav className="me-right">
-        <Nav.Link href="#Projects">Projects</Nav.Link>
-        <Nav.Link href="#Experiences">Experiences</Nav.Link>
-        <Nav.Link href="#Education">Education</Nav.Link>
-        <Nav.Link  href="#Skills">
+      <Nav className="me-auto">
+        </Nav>
+        <Nav style={{marginRight:"9rem",gap:"1.5rem"}}>
+        <Nav.Link onClick={()=>{
+      navigator("/projects")
+    }}>Projects</Nav.Link>
+        <Nav.Link onClick={()=>{
+      navigator("/experiences")
+    }}>Experiences</Nav.Link>
+        <Nav.Link onClick={()=>{
+      navigator("/education")
+    }}>Education</Nav.Link>
+        <Nav.Link  onClick={()=>{
+      navigator("/skills")
+    }}>
           Skills
         </Nav.Link>
         

@@ -1,9 +1,18 @@
 .SkillsComponent{
-    padding: 10em 0em;
+    /* padding: 10em 0em; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 4em;
 gap: 2em;
 
+}
+.skillsImg{
+   
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+   
+
+    cursor: pointer;
 }

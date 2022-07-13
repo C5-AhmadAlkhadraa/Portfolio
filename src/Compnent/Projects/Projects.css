@@ -1,5 +1,5 @@
 .projectsComponent{
-    padding: 10em 0em;
+    /* padding: 10em 0em; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -8,7 +8,25 @@ gap: 2em;
 }
 
 .test-height{
-    height: 100vh;
+    /* height: 100vh; */
     margin-top: 10em;
 
+}
+.card img{
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+    height: 15rem;
+    min-width: 100%;
+    
+}
+.card{
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+}
+.icon{
+    font-size: 2rem;
+    color: black;
+}
+.icon:hover{
+    transform: scale(1.6);
 }
